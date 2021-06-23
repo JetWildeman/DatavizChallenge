@@ -1,0 +1,146 @@
+---
+title: "Dataviz Challenge"
+subtitle: "Subnational Human Development Index<br><br>*Human Demographers Mapping Indexes (HDMI)*"
+author: "<br>Jet Wildeman<br>Sofia Gil-Clavel<br>Cosmo Strozza<br>Ilya Kashnitsky"
+date: "<br>*Rostock Retreat*<br>2021-06-23"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["shinobi", "ninjutsu" , "assets/ninpo.css"]
+    self_contained: true
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+library(tweetrmd)
+```
+
+
+
+
+
+
+layout: false
+class: bg-blue split-30 hide-slide-number
+
+.column.bg-yellow[
+]
+.column.bg-amber.slide-in-right[
+.sliderbox.bg-white.deep-orange.vmiddle[
+.font3[[github.com/JetWildeman/DatavizChallenge](https://github.com/JetWildeman/DatavizChallenge)]
+]]
+
+???
+#===Github
+
+---
+layout: false
+class: bg-main1 split-10
+
+.column[.content.sideways-rl[
+.font4[Subnational HDI]  
+
+]]
+
+.column[.content[
+<iframe width="100%" height="620px" style="background: #FFFFFF;" src="https://globaldatalab.org"></iframe>
+https://globaldatalab.org/shdi/maps/shdi/2019/
+]]
+???
+#===SGDI site
+
+
+---
+layout: false
+class: bg-main1 split-10
+
+.column[.content.sideways-rl[
+.font4[HDMI team]  
+
+]]
+
+.column[.content.vmiddle.center[
+<img src="https://i.imgur.com/IjH61Jb.png" style="width:100%" />
+]
+]
+???
+#===HDMI team
+
+
+---
+layout: false
+class: bg-main1 split-10
+
+.column[.content.sideways-rl[
+.font4[Sketch]  
+
+]]
+
+.column[.content.vmiddle.center[
+<img src="https://habrastorage.org/webt/nc/va/re/ncvarewu-zwli9vu3paqpmdxxuo.png" style="width:100%" />
+]
+]
+???
+#===SKETCH
+
+
+---
+layout: false
+class: bg-main1 split-10
+
+.column[.content.sideways-rl[
+.font4[Population density]  
+
+]]
+
+.column[.content.vmiddle.center[
+<img src="https://habrastorage.org/webt/8o/6u/6w/8o6u6wfga7g-vhhwcvlqkgekgg8.png" style="width:85%" />
+]
+]
+???
+#===DENS
+
+
+---
+layout: false
+class: bg-main1 split-10
+
+.column[.content.sideways-rl[
+.font4[Blinking map]  
+
+]]
+
+.column[.content[
+<img src="https://i.imgur.com/kDtiN4Y.gif" style="width:90%" />
+]]
+???
+#===ANIMATION
+https://imgur.com/kDtiN4Y
+
+
+---
+class: bg-main1 split-30 hide-slide-number
+
+.column.bg-main3[
+.content.vmiddle.center[
+<img src="https://i.imgur.com/IjH61Jb.png" style="width:90%" />
+]
+]
+.column.slide-in-right[
+.sliderbox.bg-main2.center.vmiddle[
+.font5[Thank you!]
+<br><br>
+## .pink[@JetWildeman]
+## .green[@sof14g1l]
+## .deep-purple[@CosmoStrozza]
+## .yellow[@ikashnitsky]
+]]
+]]
+???
+#===THANK YOU
